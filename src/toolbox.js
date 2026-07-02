@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_RGBLEDSTRIP_CATEGORY}" id="RGBLEDSTRIP_CATEGORY" colour="#7700FF" secondaryColour="#4400B3">
     <block type="rgbLedStrip_init" id="rgbLedStrip_init">
         <value name="LEN">
@@ -66,4 +65,3 @@ export default () => {
     <block type="rgbLedStrip_show" id="rgbLedStrip_show">
     </block>
 </category>`;
-};
